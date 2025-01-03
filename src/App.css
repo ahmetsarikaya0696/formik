@@ -1,0 +1,65 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container a {
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 25%;
+}
+
+form input,
+select {
+  line-height: 1.5rem;
+  border-radius: 10px;
+  background-color: #1a202c;
+  border: 1px solid lightblue;
+  color: white;
+  padding: 5px;
+}
+
+form button {
+  cursor: pointer;
+  width: 25%;
+  border: none;
+  border-radius: 25px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+  color: #666;
+}
+
+.input-error {
+  border-color: #fc8181;
+}
+
+.error {
+  color: #fc8181;
+  font-size: 12px;
+  text-align: left;
+  width: 100%;
+}
